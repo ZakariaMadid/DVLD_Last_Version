@@ -1,6 +1,0 @@
-C:\Users\hp\Desktop\DVLD_Project_Final\Project\clslLibShared\bin\Debug\clslLibShared.dll
-C:\Users\hp\Desktop\DVLD_Project_Final\Project\clslLibShared\bin\Debug\clslLibShared.pdb
-C:\Users\hp\Desktop\DVLD_Project_Final\Project\clslLibShared\obj\Debug\clslLibShared.csproj.AssemblyReference.cache
-C:\Users\hp\Desktop\DVLD_Project_Final\Project\clslLibShared\obj\Debug\clslLibShared.csproj.CoreCompileInputs.cache
-C:\Users\hp\Desktop\DVLD_Project_Final\Project\clslLibShared\obj\Debug\clslLibShared.dll
-C:\Users\hp\Desktop\DVLD_Project_Final\Project\clslLibShared\obj\Debug\clslLibShared.pdb

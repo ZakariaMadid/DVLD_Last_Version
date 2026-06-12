@@ -180,7 +180,7 @@
             this.chkRememberMe.Location = new System.Drawing.Point(166, 236);
             this.chkRememberMe.Name = "chkRememberMe";
             this.chkRememberMe.Size = new System.Drawing.Size(167, 29);
-            this.chkRememberMe.TabIndex = 134;
+            this.chkRememberMe.TabIndex = 2;
             this.chkRememberMe.Text = "Remember Me.";
             this.chkRememberMe.UseVisualStyleBackColor = true;
             // 
@@ -205,7 +205,7 @@
             this.txtUserName.MaxLength = 50;
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(230, 30);
-            this.txtUserName.TabIndex = 1;
+            this.txtUserName.TabIndex = 0;
             // 
             // label5
             // 
@@ -237,7 +237,7 @@
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(230, 30);
-            this.txtPassword.TabIndex = 2;
+            this.txtPassword.TabIndex = 1;
             // 
             // pictureBox8
             // 

@@ -137,8 +137,16 @@ namespace DVLD_DataAccess
 
                     PersonID = (int)reader["PersonID"];
                     FirstName = (string)reader["FirstName"];
-                    SecondName = (string)reader["SecondName"];
-
+                 
+                    // handle null second name
+                    if (reader["SecondName"] != DBNull.Value)
+                    {
+                        SecondName = (string)reader["SecondName"];
+                    }
+                    else
+                    {
+                        SecondName = "";
+                    }
                     //ThirdName: allows null in database so we should handle null
                     if (reader["ThirdName"] != DBNull.Value)
                     {
@@ -222,8 +230,13 @@ namespace DVLD_DataAccess
             SqlCommand command = new SqlCommand(query, connection);
 
             command.Parameters.AddWithValue("@FirstName", FirstName);
-            command.Parameters.AddWithValue("@SecondName", SecondName);
-           
+          
+            //handle null
+            if (SecondName != "" && SecondName != null)
+                command.Parameters.AddWithValue("@SecondName", SecondName);
+            else
+                command.Parameters.AddWithValue("@SecondName", System.DBNull.Value);
+
             if (ThirdName != "" && ThirdName != null)
                 command.Parameters.AddWithValue("@ThirdName", ThirdName);
             else
@@ -304,7 +317,12 @@ namespace DVLD_DataAccess
 
             command.Parameters.AddWithValue("@PersonID", PersonID);
             command.Parameters.AddWithValue("@FirstName", FirstName);
-            command.Parameters.AddWithValue("@SecondName", SecondName);
+           
+
+            if (SecondName != "" && SecondName != null)
+                command.Parameters.AddWithValue("@SecondName", SecondName);
+            else
+                command.Parameters.AddWithValue("@SecondName", System.DBNull.Value);
 
             if (ThirdName != "" && ThirdName != null)
                 command.Parameters.AddWithValue("@ThirdName", ThirdName);
