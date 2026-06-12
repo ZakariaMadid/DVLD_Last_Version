@@ -1,0 +1,163 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\Desktop\\DVLD Project Final\\Project\\DVLD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E77FF3BB-DD27-499E-9648-C438BBCAE45E}|..\\clsLibShared\\clsLibShared.csproj|c:\\users\\hp\\desktop\\dvld project final\\project\\clslibshared\\clslibshared.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77FF3BB-DD27-499E-9648-C438BBCAE45E}|..\\clsLibShared\\clsLibShared.csproj|c:\\users\\hp\\desktop\\dvld project final\\project\\clslibshared\\clseventlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77FF3BB-DD27-499E-9648-C438BBCAE45E}|..\\clsLibShared\\clsLibShared.csproj|c:\\users\\hp\\desktop\\dvld project final\\project\\clslibshared\\clslibshared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD_LastVersion.csproj|c:\\users\\hp\\desktop\\dvld project final\\project\\dvld\\login\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD_LastVersion.csproj|solutionrelative:login\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD_LastVersion.csproj|C:\\Users\\hp\\Desktop\\DVLD Project Final\\Project\\DVLD\\login\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD_LastVersion.csproj|solutionrelative:login\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1BE28AD-D036-4C77-964C-9EE4ACC6727A}|..\\DVLD_DataAccess\\DVLD_DataAccess.csproj|C:\\Users\\hp\\Desktop\\DVLD Project Final\\Project\\dvld_dataaccess\\clspersondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clsLibShared",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\DVLD Project Final\\Project\\clsLibShared\\clsLibShared.csproj",
+              "RelativeDocumentMoniker": "..\\clsLibShared\\clsLibShared.csproj",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\DVLD Project Final\\Project\\clsLibShared\\clsLibShared.csproj",
+              "RelativeToolTip": "..\\clsLibShared\\clsLibShared.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-10T22:23:58.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\DVLD Project Final\\Project\\DVLD\\Login\\frmLogin.cs",
+              "RelativeDocumentMoniker": "Login\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\DVLD Project Final\\Project\\DVLD\\Login\\frmLogin.cs [Design]",
+              "RelativeToolTip": "Login\\frmLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T22:12:40.676Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "clsLibShared.csproj",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\DVLD Project Final\\Project\\clsLibShared\\clsLibShared.csproj",
+              "RelativeDocumentMoniker": "..\\clsLibShared\\clsLibShared.csproj",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\DVLD Project Final\\Project\\clsLibShared\\clsLibShared.csproj",
+              "RelativeToolTip": "..\\clsLibShared\\clsLibShared.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-10T22:12:40.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clsEventLogger.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\DVLD Project Final\\Project\\clsLibShared\\clsEventLogger.cs",
+              "RelativeDocumentMoniker": "..\\clsLibShared\\clsEventLogger.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\DVLD Project Final\\Project\\clsLibShared\\clsEventLogger.cs",
+              "RelativeToolTip": "..\\clsLibShared\\clsEventLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T22:12:40.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "clsPersonData.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\DVLD Project Final\\Project\\DVLD_DataAccess\\clsPersonData.cs",
+              "RelativeDocumentMoniker": "..\\DVLD_DataAccess\\clsPersonData.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\DVLD Project Final\\Project\\DVLD_DataAccess\\clsPersonData.cs",
+              "RelativeToolTip": "..\\DVLD_DataAccess\\clsPersonData.cs",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAuwAwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T22:12:40.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\DVLD Project Final\\Project\\DVLD\\Login\\frmLogin.cs",
+              "RelativeDocumentMoniker": "Login\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\DVLD Project Final\\Project\\DVLD\\Login\\frmLogin.cs",
+              "RelativeToolTip": "Login\\frmLogin.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T22:12:40.828Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 340,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
