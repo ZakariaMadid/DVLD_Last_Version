@@ -441,12 +441,12 @@
         private System.Windows.Forms.ToolStripMenuItem tsMManageApplications;
         private System.Windows.Forms.ToolStripMenuItem manageLocalDrivingLicenseApplicationsToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ToolStripMenuItem ManageInternationaDrivingLicenseToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem DetainLicensesToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem detainLicenseToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem releaseDetainedLicenseToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ManageDetainedLicensestoolStripMenuItem1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
