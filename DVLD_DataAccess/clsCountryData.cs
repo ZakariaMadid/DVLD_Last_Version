@@ -1,7 +1,8 @@
-﻿using System;
+﻿using clslLibShared;
+using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -50,8 +51,8 @@ namespace DVLD_DataAccess
                 }
                 catch (Exception ex)
                 {
-                    //Console.WriteLine("Error: " + ex.Message);
-                    isFound = false;
+                clsEventLog.LogError(ex.ToString());
+                isFound = false;
                 }
                 finally
                 {
@@ -99,7 +100,7 @@ namespace DVLD_DataAccess
             }
             catch (Exception ex)
             {
-                //Console.WriteLine("Error: " + ex.Message);
+                clsEventLog.LogError(ex.ToString());
                 isFound = false;
             }
             finally
@@ -139,7 +140,7 @@ namespace DVLD_DataAccess
 
             catch (Exception ex)
             {
-                // Console.WriteLine("Error: " + ex.Message);
+                clsEventLog.LogError(ex.ToString());
             }
             finally
             {

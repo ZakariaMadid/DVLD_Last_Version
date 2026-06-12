@@ -1,15 +1,16 @@
-﻿using System;
+﻿using clslLibShared;
+using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
+using System.Net;
+using System.Reflection;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using static DVLD_DataAccess.clsCountryData;
-using System.Net;
-using System.Security.Policy;
 using static System.Net.Mime.MediaTypeNames;
-using System.Reflection;
 
 namespace DVLD_DataAccess
 {
@@ -64,8 +65,8 @@ namespace DVLD_DataAccess
                 }
                 catch (Exception ex)
                 {
-                    //Console.WriteLine("Error: " + ex.Message);
-                    isFound = false;
+                   clsEventLog.LogError(ex.ToString());
+                isFound = false;
                 }
                 finally
                 {
@@ -137,7 +138,7 @@ namespace DVLD_DataAccess
             }
             catch (Exception ex)
             {
-                //Console.WriteLine("Error: " + ex.Message);
+                clsEventLog.LogError(ex.ToString());
                 isFound = false;
             }
             finally
@@ -178,8 +179,8 @@ namespace DVLD_DataAccess
 
                 catch (Exception ex)
                 {
-                    // Console.WriteLine("Error: " + ex.Message);
-                }
+                clsEventLog.LogError(ex.ToString());
+            }
                 finally
                 {
                     connection.Close();
@@ -235,7 +236,7 @@ namespace DVLD_DataAccess
             catch (Exception ex)
             {
                 //Console.WriteLine("Error: " + ex.Message);
-
+                clsEventLog.LogError(ex.ToString());
             }
 
             finally
@@ -279,6 +280,7 @@ namespace DVLD_DataAccess
             catch (Exception ex)
             {
                 //Console.WriteLine("Error: " + ex.Message);
+                clsEventLog.LogError(ex.ToString());
                 return false;
             }
 
@@ -321,6 +323,7 @@ namespace DVLD_DataAccess
             catch (Exception ex)
             {
                 //Console.WriteLine("Error: " + ex.Message);
+                clsEventLog.LogError(ex.ToString());
 
             }
 

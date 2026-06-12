@@ -539,6 +539,10 @@
     <None Include="Resources\Close 32.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\clslLibShared\clslLibShared.csproj">
+      <Project>{fa5a16cb-75eb-4add-90eb-39fac2e95149}</Project>
+      <Name>clslLibShared</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DVLD_Buisness\DVLD_Buisness.csproj">
       <Project>{46a8427b-dcfc-4daf-a14c-e3f4789a993d}</Project>
       <Name>DVLD_Buisness</Name>

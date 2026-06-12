@@ -64,6 +64,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\clslLibShared\clslLibShared.csproj">
+      <Project>{fa5a16cb-75eb-4add-90eb-39fac2e95149}</Project>
+      <Name>clslLibShared</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DVLD_DataAccess\DVLD_DataAccess.csproj">
       <Project>{c1be28ad-d036-4c77-964c-9ee4acc6727a}</Project>
       <Name>DVLD_DataAccess</Name>

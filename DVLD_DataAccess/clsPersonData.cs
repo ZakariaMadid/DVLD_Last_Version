@@ -2,6 +2,7 @@
 using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
+using clslLibShared;
 
 namespace DVLD_DataAccess
 {
@@ -96,8 +97,8 @@ namespace DVLD_DataAccess
             }
             catch (Exception ex)
             {
-                //Console.WriteLine("Error: " + ex.Message);
-                
+                clsEventLog.LogError(ex.ToString());
+
                 isFound = false;
             }
             finally
@@ -189,7 +190,7 @@ namespace DVLD_DataAccess
             }
             catch (Exception ex)
             {
-                //Console.WriteLine("Error: " + ex.Message);
+                clsEventLog.LogError(ex.ToString());
                 isFound = false;
             }
             finally
@@ -234,7 +235,7 @@ namespace DVLD_DataAccess
             command.Parameters.AddWithValue("@Gendor", Gendor);
             command.Parameters.AddWithValue("@Address", Address);
             //Exception
-            command.Parameters.AddWithValue("@Phooooooooooone", Phone);
+            command.Parameters.AddWithValue("@Phone", Phone);
             
             if (Email != "" && Email != null)
                 command.Parameters.AddWithValue("@Email", Email);
@@ -262,8 +263,7 @@ namespace DVLD_DataAccess
 
             catch (Exception ex)
             {
-              
-                
+                clsEventLog.LogError($"Class: clsPersonData, Method: AddNewPerson : {ex.ToString()}");
             }
 
             finally
@@ -340,7 +340,7 @@ namespace DVLD_DataAccess
             }
             catch (Exception ex)
             {
-                //Console.WriteLine("Error: " + ex.Message);
+                clsEventLog.LogError(ex.ToString());
                 return false;
             }
 
@@ -399,7 +399,7 @@ namespace DVLD_DataAccess
 
             catch (Exception ex)
             {
-                // Console.WriteLine("Error: " + ex.Message);
+                clsEventLog.LogError(ex.ToString());
             }
             finally
             {
@@ -433,7 +433,7 @@ namespace DVLD_DataAccess
             }
             catch (Exception ex)
             {
-                // Console.WriteLine("Error: " + ex.Message);
+                clsEventLog.LogError(ex.ToString());
             }
             finally
             {
@@ -469,7 +469,7 @@ namespace DVLD_DataAccess
             }
             catch (Exception ex)
             {
-                //Console.WriteLine("Error: " + ex.Message);
+                clsEventLog.LogError(ex.ToString());
                 isFound = false;
             }
             finally
@@ -503,7 +503,7 @@ namespace DVLD_DataAccess
             }
             catch (Exception ex)
             {
-                //Console.WriteLine("Error: " + ex.Message);
+                clsEventLog.LogError(ex.ToString());
                 isFound = false;
             }
             finally
